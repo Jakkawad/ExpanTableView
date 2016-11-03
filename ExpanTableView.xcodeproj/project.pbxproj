@@ -13,6 +13,15 @@
 		845371731DCADBBD006B8E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845371721DCADBBD006B8E1E /* Assets.xcassets */; };
 		845371761DCADBBD006B8E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845371741DCADBBD006B8E1E /* LaunchScreen.storyboard */; };
 		845371811DCADBBD006B8E1E /* ExpanTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845371801DCADBBD006B8E1E /* ExpanTableViewTests.swift */; };
+		8453718C1DCAE48F006B8E1E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453718B1DCAE48F006B8E1E /* CustomCell.swift */; };
+		845371931DCAE85B006B8E1E /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 845371921DCAE85B006B8E1E /* CellDescriptor.plist */; };
+		845371A21DCB190E006B8E1E /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453719C1DCB190E006B8E1E /* DatePickerCell.xib */; };
+		845371A31DCB190E006B8E1E /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453719D1DCB190E006B8E1E /* NormalCell.xib */; };
+		845371A41DCB190E006B8E1E /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453719E1DCB190E006B8E1E /* SliderCell.xib */; };
+		845371A51DCB190E006B8E1E /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453719F1DCB190E006B8E1E /* SwitchCell.xib */; };
+		845371A61DCB190E006B8E1E /* TextfieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845371A01DCB190E006B8E1E /* TextfieldCell.xib */; };
+		845371A71DCB190E006B8E1E /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845371A11DCB190E006B8E1E /* ValuePickerCell.xib */; };
+		845371A91DCB1AE2006B8E1E /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845371A81DCB1AE2006B8E1E /* Back.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		8453717C1DCADBBD006B8E1E /* ExpanTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpanTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845371801DCADBBD006B8E1E /* ExpanTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpanTableViewTests.swift; sourceTree = "<group>"; };
 		845371821DCADBBD006B8E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8453718B1DCAE48F006B8E1E /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		845371921DCAE85B006B8E1E /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		8453719C1DCB190E006B8E1E /* DatePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
+		8453719D1DCB190E006B8E1E /* NormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalCell.xib; sourceTree = "<group>"; };
+		8453719E1DCB190E006B8E1E /* SliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		8453719F1DCB190E006B8E1E /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		845371A01DCB190E006B8E1E /* TextfieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextfieldCell.xib; sourceTree = "<group>"; };
+		845371A11DCB190E006B8E1E /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
+		845371A81DCB1AE2006B8E1E /* Back.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Back.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,10 @@
 			children = (
 				8453716B1DCADBBD006B8E1E /* AppDelegate.swift */,
 				8453716D1DCADBBD006B8E1E /* ViewController.swift */,
+				845371A81DCB1AE2006B8E1E /* Back.swift */,
+				8453718B1DCAE48F006B8E1E /* CustomCell.swift */,
+				845371921DCAE85B006B8E1E /* CellDescriptor.plist */,
+				845371AA1DCB1B62006B8E1E /* CustomCell */,
 				8453716F1DCADBBD006B8E1E /* Main.storyboard */,
 				845371721DCADBBD006B8E1E /* Assets.xcassets */,
 				845371741DCADBBD006B8E1E /* LaunchScreen.storyboard */,
@@ -94,6 +116,19 @@
 				845371821DCADBBD006B8E1E /* Info.plist */,
 			);
 			path = ExpanTableViewTests;
+			sourceTree = "<group>";
+		};
+		845371AA1DCB1B62006B8E1E /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				8453719C1DCB190E006B8E1E /* DatePickerCell.xib */,
+				8453719D1DCB190E006B8E1E /* NormalCell.xib */,
+				8453719E1DCB190E006B8E1E /* SliderCell.xib */,
+				8453719F1DCB190E006B8E1E /* SwitchCell.xib */,
+				845371A01DCB190E006B8E1E /* TextfieldCell.xib */,
+				845371A11DCB190E006B8E1E /* ValuePickerCell.xib */,
+			);
+			name = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +181,12 @@
 				TargetAttributes = {
 					845371671DCADBBD006B8E1E = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					8453717B1DCADBBD006B8E1E = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 845371671DCADBBD006B8E1E;
 					};
@@ -179,8 +216,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845371931DCAE85B006B8E1E /* CellDescriptor.plist in Resources */,
+				845371A51DCB190E006B8E1E /* SwitchCell.xib in Resources */,
 				845371761DCADBBD006B8E1E /* LaunchScreen.storyboard in Resources */,
+				845371A21DCB190E006B8E1E /* DatePickerCell.xib in Resources */,
+				845371A61DCB190E006B8E1E /* TextfieldCell.xib in Resources */,
+				845371A41DCB190E006B8E1E /* SliderCell.xib in Resources */,
 				845371731DCADBBD006B8E1E /* Assets.xcassets in Resources */,
+				845371A71DCB190E006B8E1E /* ValuePickerCell.xib in Resources */,
+				845371A31DCB190E006B8E1E /* NormalCell.xib in Resources */,
 				845371711DCADBBD006B8E1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8453716E1DCADBBD006B8E1E /* ViewController.swift in Sources */,
+				8453718C1DCAE48F006B8E1E /* CustomCell.swift in Sources */,
+				845371A91DCB1AE2006B8E1E /* Back.swift in Sources */,
 				8453716C1DCADBBD006B8E1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ExpanTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunny-juof.ExpanTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ExpanTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunny-juof.ExpanTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
